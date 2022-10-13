@@ -1,0 +1,35 @@
+.banner
+{
+    height: 456px;
+    padding: 20px 20px 0;
+    border: 1px solid #DCDEE3;
+    background: #fff;
+    display: flex;
+    position: relative;
+}
+
+.set_carousel
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    transform: translateX(-50%);
+}
+
+.set_carousel span
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #E0E0E0;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.set_carousel span.active
+{
+    background: #fff;
+    border: 2px solid var(--orange);
+}

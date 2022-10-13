@@ -1,0 +1,173 @@
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative !important;
+    background: #fff;
+}
+
+.nav_p
+{
+    padding: 20px;
+    display: flex;
+}
+
+.navbar > .nav_p > .logo
+{
+    width: 180px;
+    height: 38px;
+    background: url('https://s.alicdn.com/@img/tfs/TB1hVGkvVP7gK0jSZFjXXc5aXXa-365-49.svg') no-repeat center/contain;
+    outline: none !important;
+    border: none !important;
+}
+
+.form
+{
+    width: 590px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid var(--orange);
+    margin-left: 40px;
+}
+
+.form select
+{
+    width: 100px;
+    height: 36px;
+    position: relative;
+    border-radius: 20px 0 0 20px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-right: 1px solid #80808030;
+    padding: 0 0 0 15px;
+    cursor: pointer;
+}
+
+.form input
+{
+    width: calc(100% - 100px);
+    height: 36px;
+    outline: none;
+    border: none;
+    padding: 0 40px 0 10px;
+    line-height: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form > svg
+{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #3339;
+    cursor: pointer;
+}
+
+.btn_search
+{
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 0;
+    background: var(--orange);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.btn_search svg 
+{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.btn_search:hover
+{
+    background: var(--orange-c);
+}
+
+.signin
+{
+    width: 110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    position: relative;
+}
+
+.signin svg
+{
+    margin: 6px 0 0;
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.signin > div a,
+.signin > div span
+{
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    white-space: nowrap;
+    position: relative;
+}
+
+.signin > div span
+{
+    margin-top: 2px;
+}
+
+.signin > div a:last-child
+{
+    margin-top: 5px;
+}
+
+.nav_box
+{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav_box svg
+{
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav_box > p,
+.nav_box > a
+{
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 2px;
+    position: relative;
+}
+
+.nav_box > a:hover,
+.nav_box > p:hover
+{
+    color: var(--orange);
+}
+
+.nav_card
+{
+    position: relative;
+}

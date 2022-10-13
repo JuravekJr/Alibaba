@@ -1,0 +1,157 @@
+.cards
+{
+    width: 100%;
+    margin: 30px 0 20px;
+}
+
+.header
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header h3
+{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 0 15px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.stick
+{
+    height: 6px;
+    margin-left: 15px;
+    background: #dcdee3;
+    border-radius: 3px;
+}
+
+.stick1
+{
+    width: 100%;
+}
+
+.stick2
+{
+    min-width: 45px;
+    max-width: 45px;
+    width: 45px;
+}
+
+.header h3:last-child
+{
+    margin-right: 0;
+}
+
+.header h3:first-child
+{
+    margin-left: 0;
+}
+
+.main
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card
+{
+    width: 395px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left
+{
+    width: 150px;
+    height: 198px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right
+{
+    width: 151.34px;
+    height: 202.55px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left img,
+.right img
+{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.btn
+{
+    margin-top: 10px;
+    background-color: #f60;
+    color: #fff;
+    padding: 9px 15px 7px 15px;
+    border-radius: 19px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 22px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.right p
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+    padding: 0;
+    margin: 10px 0 4px;
+    cursor: pointer;
+}
+
+.right span
+{
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.right span del
+{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.right span i
+{
+    padding: 2px 5px;
+    background-color: #f60;
+    border-radius: 9px;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.right img:hover,
+.left img:hover
+{
+    box-shadow: 0 0 2px #777c;
+}

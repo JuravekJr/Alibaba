@@ -1,0 +1,58 @@
+.carousel
+{
+    width: calc(100% - 545px);
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image
+{
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    object-fit: cover;
+}
+
+.icon_box
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 50px;
+    background: #070d0b30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+}
+
+.icon_box1
+{
+    left: -35px;
+}
+
+.icon_box2
+{
+    right: -35px;
+}
+
+.carousel:hover
+.icon_box1
+{
+    left: 0;
+}
+
+.carousel:hover
+.icon_box2
+{
+    right: 0;
+}
+
+.icon_box > svg
+{
+    color: #fff;
+    font-size: 26px;
+}

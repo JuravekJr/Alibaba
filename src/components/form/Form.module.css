@@ -1,0 +1,48 @@
+.form
+{
+    width: 65%;
+    height: 120px;
+    border: 4px solid #f0f0f0;
+    margin-bottom: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input
+{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 2px 0 0 2px;
+    text-indent: 12px;    
+}
+
+.form button
+{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 0 2px 2px 0;
+    outline: none;
+    border: none;
+    background: var(--orange);
+    cursor: pointer;
+    user-select: none;
+}
+
+.form button svg
+{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.form button span
+{
+    font-size: 15px;
+}

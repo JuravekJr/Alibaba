@@ -1,0 +1,183 @@
+.category
+{
+    position: absolute;
+    z-index: 10;   
+}
+
+.nav_box
+{
+    width: 136px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #E6E7EB;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: none;
+    position: relative;
+}
+
+.nav_box::before
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    bottom: -3px;
+    background: #fff;
+    z-index: 2;
+}
+
+.nav_box span,
+.nav_box svg
+{
+    color: var(--orange) !important;
+    font-size: 14px !important;
+}
+
+.main
+{
+    position: absolute;
+    top: 37px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left
+{
+    padding: 10px 0;
+    border: 1px solid #E6E7EB;
+    background: #fff;
+}
+
+.blog
+{
+    width: 380px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.blog:hover
+{
+    box-shadow: 0 0 3px #9998;
+    border-radius: 3px 0 0 3px;
+}
+
+.blog > div
+{
+    width: 85%;
+}
+
+.blog div > span:first-child .slash
+{
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    color: transparent;
+}
+
+.blog div > span:nth-child(3)
+{
+    display: block;
+}
+
+.blog > div > span:hover
+{
+    cursor: pointer;
+    color: var(--orange);
+}
+
+.blog > div span
+{
+    color: #666;
+    word-break: break-all;
+    position: relative;
+}
+
+.blog > div > span:first-child::before
+{
+    position: absolute;
+    content: '';
+    left: 355px;
+    top: -10px;
+    display: none;
+    z-index: 5;
+    height: 37px;
+    width: 10px;
+    background: #fff;
+}
+
+.blog:hover > div > span:first-child::before
+{
+    display: block;
+}
+
+
+.blog > svg
+{
+    font-size: 14px !important;
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+
+.blog:hover svg
+{   
+    color: var(--orange) !important;
+    margin-right: 5px;
+}
+
+.data
+{
+    width: 670px !important;
+    height: calc(100% + 10px);
+    background: #fff;
+    position: absolute;
+    right: -670px;
+    top: -12px;
+    padding: 40px;
+    box-shadow: 0 0 5px #9998;
+    display: none;
+    border-radius: 5px;
+}
+
+.blog:hover .data
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dl dt
+{
+    font-weight: 500;
+    color: var(--blue);
+    margin-bottom: 20px;
+}
+
+.dl dt:hover
+{
+    color: var(--orange);
+}
+
+.dl dd
+{
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.dl dd:hover
+{
+    color: var(--orange);
+}
+
+.dl span
+{
+    color: #999;
+    font-size: 12px;
+}
